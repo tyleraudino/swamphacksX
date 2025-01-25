@@ -1,0 +1,573 @@
+.frame {
+    align-items: center;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px 15px;
+    justify-content: center;
+    padding: 64px;
+    position: relative;
+  }
+  
+  .frame .text-wrapper {
+    color: var(--color-text-default-default);
+    font-family: var(--title-page-font-family);
+    font-size: var(--title-page-font-size);
+    font-style: var(--title-page-font-style);
+    font-weight: var(--title-page-font-weight);
+    height: 75px;
+    letter-spacing: var(--title-page-letter-spacing);
+    line-height: var(--title-page-line-height);
+    margin-left: -64.00px;
+    margin-right: -64.00px;
+    margin-top: -1.00px;
+    position: relative;
+    text-align: center;
+    width: 1200px;
+  }
+  
+  .frame .group {
+    height: 521px;
+    position: relative;
+    width: 1005px;
+  }
+  
+  .frame .checkbox-field {
+    align-items: center;
+    border: 2px solid;
+    border-color: #aac8b9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 52px;
+    justify-content: center;
+    left: 0;
+    padding: 4px 15px;
+    position: absolute;
+    top: 0;
+    width: 240px;
+  }
+  
+  .frame .checkbox-and-label {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: var(--size-space-300);
+    position: relative;
+    width: 100%;
+  }
+  
+  .frame .checkbox {
+    background-color: var(--color-background-default-default);
+    border: 1px solid;
+    border-color: var(--color-border-brand-tertiary);
+    border-radius: var(--size-radius-100);
+    height: 16px;
+    position: relative;
+    width: 16px;
+  }
+  
+  .frame .label {
+    color: var(--color-text-default-default);
+    flex: 1;
+    font-family: var(--body-base-font-family);
+    font-size: var(--body-base-font-size);
+    font-style: var(--body-base-font-style);
+    font-weight: var(--body-base-font-weight);
+    letter-spacing: var(--body-base-letter-spacing);
+    line-height: var(--body-base-line-height);
+    margin-top: -1.00px;
+    position: relative;
+  }
+  
+  .frame .checkbox-and-label-wrapper {
+    align-items: center;
+    border: 2px solid;
+    border-color: #aac8b9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 52px;
+    justify-content: center;
+    left: 255px;
+    padding: 4px 15px;
+    position: absolute;
+    top: 0;
+    width: 240px;
+  }
+  
+  .frame .div-wrapper {
+    align-items: center;
+    border: 2px solid;
+    border-color: #aac8b9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 510px;
+    padding: 4px 15px;
+    position: absolute;
+    top: 0;
+    width: 240px;
+  }
+  
+  .frame .div {
+    align-items: center;
+    border: 2px solid;
+    border-color: #aac8b9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 52px;
+    justify-content: center;
+    left: 765px;
+    padding: 4px 15px;
+    position: absolute;
+    top: 0;
+    width: 240px;
+  }
+  
+  .frame .checkbox-field-2 {
+    align-items: center;
+    border: 2px solid;
+    border-color: #aac8b9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 0;
+    padding: 4px 15px;
+    position: absolute;
+    top: 67px;
+    width: 240px;
+  }
+  
+  .frame .checkbox-field-3 {
+    align-items: center;
+    border: 2px solid;
+    border-color: #aac8b9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 52px;
+    justify-content: center;
+    left: 255px;
+    padding: 4px 15px;
+    position: absolute;
+    top: 67px;
+    width: 240px;
+  }
+  
+  .frame .checkbox-field-4 {
+    align-items: center;
+    border: 2px solid;
+    border-color: #aac8b9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 52px;
+    justify-content: center;
+    left: 510px;
+    padding: 4px 15px;
+    position: absolute;
+    top: 67px;
+    width: 240px;
+  }
+  
+  .frame .checkbox-field-5 {
+    align-items: center;
+    border: 2px solid;
+    border-color: #aac8b9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 52px;
+    justify-content: center;
+    left: 765px;
+    padding: 4px 15px;
+    position: absolute;
+    top: 67px;
+    width: 240px;
+  }
+  
+  .frame .checkbox-field-6 {
+    align-items: center;
+    border: 2px solid;
+    border-color: #aac8b9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 0;
+    padding: 4px 15px;
+    position: absolute;
+    top: 134px;
+    width: 240px;
+  }
+  
+  .frame .checkbox-field-7 {
+    align-items: center;
+    border: 2px solid;
+    border-color: #aac8b9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 52px;
+    justify-content: center;
+    left: 255px;
+    padding: 4px 15px;
+    position: absolute;
+    top: 134px;
+    width: 240px;
+  }
+  
+  .frame .checkbox-field-8 {
+    align-items: center;
+    border: 2px solid;
+    border-color: #aac8b9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 510px;
+    padding: 4px 15px;
+    position: absolute;
+    top: 134px;
+    width: 240px;
+  }
+  
+  .frame .checkbox-field-9 {
+    align-items: center;
+    border: 2px solid;
+    border-color: #aac8b9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 52px;
+    justify-content: center;
+    left: 765px;
+    padding: 4px 15px;
+    position: absolute;
+    top: 134px;
+    width: 240px;
+  }
+  
+  .frame .checkbox-field-10 {
+    align-items: center;
+    border: 2px solid;
+    border-color: #aac8b9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 0;
+    padding: 4px 15px;
+    position: absolute;
+    top: 201px;
+    width: 240px;
+  }
+  
+  .frame .checkbox-field-11 {
+    align-items: center;
+    border: 2px solid;
+    border-color: #aac8b9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 52px;
+    justify-content: center;
+    left: 255px;
+    padding: 4px 15px;
+    position: absolute;
+    top: 201px;
+    width: 240px;
+  }
+  
+  .frame .checkbox-field-12 {
+    align-items: center;
+    border: 2px solid;
+    border-color: #aac8b9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 510px;
+    padding: 4px 15px;
+    position: absolute;
+    top: 201px;
+    width: 240px;
+  }
+  
+  .frame .checkbox-field-13 {
+    align-items: center;
+    border: 2px solid;
+    border-color: #aac8b9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 52px;
+    justify-content: center;
+    left: 765px;
+    padding: 4px 15px;
+    position: absolute;
+    top: 201px;
+    width: 240px;
+  }
+  
+  .frame .checkbox-field-14 {
+    align-items: center;
+    border: 2px solid;
+    border-color: #aac8b9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 52px;
+    justify-content: center;
+    left: 0;
+    padding: 4px 15px;
+    position: absolute;
+    top: 268px;
+    width: 240px;
+  }
+  
+  .frame .checkbox-field-15 {
+    align-items: center;
+    border: 2px solid;
+    border-color: #aac8b9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 52px;
+    justify-content: center;
+    left: 255px;
+    padding: 4px 15px;
+    position: absolute;
+    top: 268px;
+    width: 240px;
+  }
+  
+  .frame .checkbox-field-16 {
+    align-items: center;
+    border: 2px solid;
+    border-color: #aac8b9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 52px;
+    justify-content: center;
+    left: 510px;
+    padding: 4px 15px;
+    position: absolute;
+    top: 268px;
+    width: 240px;
+  }
+  
+  .frame .checkbox-field-17 {
+    align-items: center;
+    border: 2px solid;
+    border-color: #aac8b9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 52px;
+    justify-content: center;
+    left: 765px;
+    padding: 4px 15px;
+    position: absolute;
+    top: 268px;
+    width: 240px;
+  }
+  
+  .frame .checkbox-field-18 {
+    align-items: center;
+    border: 2px solid;
+    border-color: #aac8b9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 52px;
+    justify-content: center;
+    left: 0;
+    padding: 4px 15px;
+    position: absolute;
+    top: 335px;
+    width: 240px;
+  }
+  
+  .frame .checkbox-field-19 {
+    align-items: center;
+    border: 2px solid;
+    border-color: #aac8b9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 52px;
+    justify-content: center;
+    left: 255px;
+    padding: 4px 15px;
+    position: absolute;
+    top: 335px;
+    width: 240px;
+  }
+  
+  .frame .checkbox-field-20 {
+    align-items: center;
+    border: 2px solid;
+    border-color: #aac8b9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 52px;
+    justify-content: center;
+    left: 510px;
+    padding: 4px 15px;
+    position: absolute;
+    top: 335px;
+    width: 240px;
+  }
+  
+  .frame .checkbox-field-21 {
+    align-items: center;
+    border: 2px solid;
+    border-color: #aac8b9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 52px;
+    justify-content: center;
+    left: 765px;
+    padding: 4px 15px;
+    position: absolute;
+    top: 335px;
+    width: 240px;
+  }
+  
+  .frame .checkbox-field-22 {
+    align-items: center;
+    border: 2px solid;
+    border-color: #aac8b9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 52px;
+    justify-content: center;
+    left: 0;
+    padding: 4px 15px;
+    position: absolute;
+    top: 402px;
+    width: 240px;
+  }
+  
+  .frame .checkbox-field-23 {
+    align-items: center;
+    border: 2px solid;
+    border-color: #aac8b9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 52px;
+    justify-content: center;
+    left: 255px;
+    padding: 4px 15px;
+    position: absolute;
+    top: 402px;
+    width: 240px;
+  }
+  
+  .frame .checkbox-field-24 {
+    align-items: center;
+    border: 2px solid;
+    border-color: #aac8b9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 52px;
+    justify-content: center;
+    left: 510px;
+    padding: 4px 15px;
+    position: absolute;
+    top: 402px;
+    width: 240px;
+  }
+  
+  .frame .checkbox-field-25 {
+    align-items: center;
+    border: 2px solid;
+    border-color: #aac8b9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 52px;
+    justify-content: center;
+    left: 765px;
+    padding: 4px 15px;
+    position: absolute;
+    top: 402px;
+    width: 240px;
+  }
+  
+  .frame .checkbox-field-26 {
+    align-items: center;
+    border: 2px solid;
+    border-color: #aac8b9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 52px;
+    justify-content: center;
+    left: 0;
+    padding: 4px 15px;
+    position: absolute;
+    top: 469px;
+    width: 240px;
+  }
+  
+  .frame .checkbox-field-27 {
+    align-items: center;
+    border: 2px solid;
+    border-color: #aac8b9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 52px;
+    justify-content: center;
+    left: 255px;
+    padding: 4px 15px;
+    position: absolute;
+    top: 469px;
+    width: 240px;
+  }
+  
+  .frame .checkbox-field-28 {
+    align-items: center;
+    border: 2px solid;
+    border-color: #aac8b9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 52px;
+    justify-content: center;
+    left: 510px;
+    padding: 4px 15px;
+    position: absolute;
+    top: 469px;
+    width: 240px;
+  }
+  
+  .frame .checkbox-field-29 {
+    align-items: center;
+    border: 2px solid;
+    border-color: #aac8b9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 52px;
+    justify-content: center;
+    left: 765px;
+    padding: 4px 15px;
+    position: absolute;
+    top: 469px;
+    width: 240px;
+  }
+  
