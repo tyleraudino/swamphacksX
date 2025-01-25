@@ -1,0 +1,45 @@
+.frame {
+    height: 134px;
+    position: relative;
+    width: 1200px;
+  }
+  
+  .frame .button {
+    align-items: center;
+    background-color: var(--color-background-brand-default);
+    border: 1px solid;
+    border-color: var(--primary);
+    border-radius: var(--size-radius-200);
+    display: inline-flex;
+    gap: var(--size-space-200);
+    justify-content: center;
+    left: 524px;
+    overflow: hidden;
+    padding: var(--size-space-300);
+    position: relative;
+    top: 41px;
+  }
+  
+  .frame .text-wrapper {
+    all: unset;
+    box-sizing: border-box;
+    color: var(--color-text-brand-on-brand);
+    font-family: var(--heading-font-family);
+    font-size: var(--heading-font-size);
+    font-style: var(--heading-font-style);
+    font-weight: var(--heading-font-weight);
+    letter-spacing: var(--heading-letter-spacing);
+    line-height: var(--heading-line-height);
+    margin-top: -1.00px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .frame .arrow-right {
+    height: 16px !important;
+    position: relative !important;
+    width: 16px !important;
+  }
+  

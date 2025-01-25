@@ -1,0 +1,85 @@
+.frame {
+    align-items: flex-start;
+    background-color: #ffffff;
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    padding: 20px 10px;
+    position: relative;
+  }
+  
+  .frame .form-contact-instance {
+    flex: 0 0 auto !important;
+  }
+  
+  .frame .design-component-instance-node {
+    align-self: unset !important;
+    width: 272px !important;
+  }
+  
+  .frame .textarea-field {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-space-200);
+    height: 504px;
+    position: relative;
+    width: 655px;
+  }
+  
+  .frame .label-2 {
+    align-self: stretch;
+    color: var(--color-text-default-default);
+    font-family: var(--body-base-font-family);
+    font-size: var(--body-base-font-size);
+    font-style: var(--body-base-font-style);
+    font-weight: var(--body-base-font-weight);
+    letter-spacing: var(--body-base-letter-spacing);
+    line-height: var(--body-base-line-height);
+    margin-top: -1.00px;
+    position: relative;
+  }
+  
+  .frame .textarea-2 {
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: var(--color-background-default-default);
+    border: 1px solid;
+    border-color: var(--color-border-default-default);
+    border-radius: var(--size-radius-200);
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    margin-bottom: -1.00px;
+    margin-left: -1.00px;
+    margin-right: -1.00px;
+    min-height: 80px;
+    min-width: 240px;
+    overflow: hidden;
+    padding: var(--size-space-300) var(--size-space-400) var(--size-space-300)
+      var(--size-space-400);
+    position: relative;
+    width: 100%;
+  }
+  
+  .frame .value-2 {
+    color: var(--color-text-default-default);
+    flex: 1;
+    font-family: var(--body-base-font-family);
+    font-size: var(--body-base-font-size);
+    font-style: var(--body-base-font-style);
+    font-weight: var(--body-base-font-weight);
+    letter-spacing: var(--body-base-letter-spacing);
+    line-height: var(--body-base-line-height);
+    margin-top: -0.50px;
+    position: relative;
+  }
+  
+  .frame .img {
+    height: 7px;
+    left: 643px;
+    position: absolute;
+    top: 461px;
+    width: 7px;
+  }
+  

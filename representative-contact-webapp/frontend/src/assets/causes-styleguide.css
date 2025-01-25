@@ -1,0 +1,54 @@
+:root {
+    --body-base-font-family: "Inter", Helvetica;
+    --body-base-font-size: 16px;
+    --body-base-font-style: normal;
+    --body-base-font-weight: 400;
+    --body-base-letter-spacing: 0px;
+    --body-base-line-height: 139.9999976158142%;
+    --color-background-default-default: var(--color-primitives-white-1000);
+    --color-border-brand-tertiary: var(--color-primitives-brand-500);
+    --color-primitives-brand-400: rgba(179, 179, 179, 1);
+    --color-primitives-brand-500: rgba(117, 117, 117, 1);
+    --color-primitives-gray-500: rgba(117, 117, 117, 1);
+    --color-primitives-gray-900: rgba(30, 30, 30, 1);
+    --color-primitives-white-1000: rgba(255, 255, 255, 1);
+    --color-primitives-white-500: rgba(255, 255, 255, 0.7);
+    --color-text-default-default: var(--color-primitives-gray-900);
+    --color-text-default-secondary: var(--color-primitives-gray-500);
+    --primary: rgba(170, 200, 185, 1);
+    --size-radius-100: 4px;
+    --size-space-300: 12px;
+    --title-page-font-family: "Inter", Helvetica;
+    --title-page-font-size: 48px;
+    --title-page-font-style: normal;
+    --title-page-font-weight: 700;
+    --title-page-letter-spacing: -0.96px;
+    --title-page-line-height: 120.00000476837158%;
+  }
+  
+  /*
+  
+  To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+  
+  <body data-color-mode="SDS-light">
+      <!-- the rest of your content -->
+  </body>
+  
+  You can apply the theme on any DOM node, not just the `body`
+  
+  */
+  
+  [data-color-mode="SDS-light"] {
+    --color-background-default-default: var(--color-primitives-white-1000);
+    --color-border-brand-tertiary: var(--color-primitives-brand-500);
+    --color-text-default-default: var(--color-primitives-gray-900);
+    --color-text-default-secondary: var(--color-primitives-gray-500);
+  }
+  
+  [data-color-mode="SDS-dark"] {
+    --color-background-default-default: var(--color-primitives-gray-900);
+    --color-border-brand-tertiary: var(--color-primitives-brand-400);
+    --color-text-default-default: var(--color-primitives-white-1000);
+    --color-text-default-secondary: var(--color-primitives-white-500);
+  }
+  
